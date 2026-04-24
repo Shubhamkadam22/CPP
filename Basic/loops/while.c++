@@ -1,6 +1,3 @@
-#include <iostream> 
-using namespace std; 
-
 
 //while loop 
 //loops in cpp are used to execute a block of code repeatedly until a certain condition is met.
@@ -12,6 +9,8 @@ while(condition) {
 }
 */
 
+#include <iostream> 
+using namespace std; 
 int main() {
  int count = 1; 
  while(count <=5){
@@ -26,3 +25,6 @@ int main() {
  }
   return 0; 
 }
+
+// Write a progrma to print a sum of the all digits from nums 
+
